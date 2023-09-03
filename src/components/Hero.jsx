@@ -2,10 +2,11 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 import Typed from 'typed.js';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const Hero = () => {
   const typingEffectRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     if (!typingEffectRef.current) {
@@ -23,6 +24,21 @@ const Hero = () => {
         smartBackspace: true,
       });
     }
+  }, []);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 500px)');
+    setIsMobile(mediaQuery.matches);
+
+    const handleMediaQueryChanges = (e) => {
+      setIsMobile(e.matches);
+    };
+
+    mediaQuery.addEventListener('change', handleMediaQueryChanges);
+
+    return () => {
+      mediaQuery.removeEventListener('change', handleMediaQueryChanges);
+    };
   }, []);
 
   return (
@@ -49,7 +65,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+
+      {!isMobile && <ComputersCanvas />}
       <div className=" absolute xs:bottom-7 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className=" w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
