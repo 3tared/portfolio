@@ -7,7 +7,7 @@ import {
   useTexture,
 } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
-import { Suspense } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import CanvasLoader from '../Loader';
 
 const Ball = (props) => {
@@ -39,8 +39,27 @@ const Ball = (props) => {
 
 // eslint-disable-next-line react/prop-types
 const BallCanvas = ({ icon }) => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 500px)');
+    setIsMobile(mediaQuery.matches);
+
+    const handleMediaQueryChanges = (e) => {
+      setIsMobile(e.matches);
+    };
+
+    mediaQuery.addEventListener('change', handleMediaQueryChanges);
+
+    return () => {
+      mediaQuery.removeEventListener('change', handleMediaQueryChanges);
+    };
+  }, []);
   return (
-    <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
+    <Canvas
+      frameloop={isMobile ? 'demand' : 'always'}
+      gl={{ preserveDrawingBuffer: true }}
+    >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
