@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
+
 import Typed from 'typed.js';
 import { useEffect, useRef, useState } from 'react';
 
@@ -65,8 +65,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      {!isMobile && <ComputersCanvas />}
       {!isMobile && (
         <div className=" absolute xs:bottom-7 bottom-32 w-full flex justify-center items-center">
           <a href="#about">
