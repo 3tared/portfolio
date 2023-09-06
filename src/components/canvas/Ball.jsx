@@ -23,7 +23,6 @@ const Ball = (props) => {
           color="#fff8eb"
           polygonOffset
           polygonOffsetFactor={-5}
-          y
           flatShading
         />
         <Decal
