@@ -18,7 +18,6 @@ import javascript from './tech/javascript.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.png';
 import bootstrap from './tech/bootstrap.png';
 
@@ -50,7 +49,6 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
   threejs,
   bootstrap,
   meta,
