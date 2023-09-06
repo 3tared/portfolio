@@ -57,7 +57,7 @@ const BallCanvas = ({ icon }) => {
   }, []);
   return (
     <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense>
         {!isMobile && <OrbitControls enableZoom={false} />}
         <Ball imgUrl={icon} />
       </Suspense>
