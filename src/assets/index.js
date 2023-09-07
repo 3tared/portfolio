@@ -32,6 +32,7 @@ import htmlcss from './HtmlCss.png';
 
 import crypto from './crypto.png';
 import aisummary from './aisummary.png';
+import ailogo from './ailogo.ico';
 
 export {
   logo,
@@ -61,4 +62,5 @@ export {
   crptoc,
   userimg,
   aisummary,
+  ailogo,
 };

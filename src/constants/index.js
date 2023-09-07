@@ -21,6 +21,8 @@ import {
   bootstrap,
   userimg,
   aisummary,
+  ailogo,
+  crptoc,
 } from '../assets';
 
 export const navLinks = [
@@ -198,6 +200,7 @@ const projects = [
       },
     ],
     image: crypto,
+    icon: crptoc,
     source_code_link: 'https://github.com/3tared/cryptoapp',
     project_url: 'https://cryptoapp-servicess.vercel.app/',
   },
@@ -220,6 +223,7 @@ const projects = [
       },
     ],
     image: aisummary,
+    icon: ailogo,
     source_code_link: 'https://github.com/3tared/ai_summarizer',
     project_url: 'https://openaisummarizer.vercel.app/',
   },

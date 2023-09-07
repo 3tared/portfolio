@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { Tilt } from 'react-tilt';
 import { styles } from '../styles';
-import { github, crptoc } from '../assets';
+import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
 import { projects } from '../constants';
@@ -17,6 +17,7 @@ const ProjectCard = ({
   image,
   source_code_link,
   project_url,
+  icon,
 }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, '0.75')}>
@@ -46,7 +47,7 @@ const ProjectCard = ({
               className="h-10 w-10 black-gradient cursor-pointer rounded-full flex justify-center items-center ml-1"
             >
               <img
-                src={crptoc}
+                src={icon}
                 alt="cryptoc"
                 className=" w-1/2 h-1/2 object-contain"
               />
