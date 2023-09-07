@@ -20,6 +20,7 @@ import {
   htmlcss,
   bootstrap,
   userimg,
+  aisummary,
 } from '../assets';
 
 export const navLinks = [
@@ -199,6 +200,28 @@ const projects = [
     image: crypto,
     source_code_link: 'https://github.com/3tared/cryptoapp',
     project_url: 'https://cryptoapp-servicess.vercel.app/',
+  },
+  {
+    name: 'Ai-Summary',
+    description:
+      'Simplify your reading with Summize, an open-source article summarizer that transforms lengthy articles into clear andconcise summaries',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'rapidapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: aisummary,
+    source_code_link: 'https://github.com/3tared/ai_summarizer',
+    project_url: 'https://openaisummarizer.vercel.app/',
   },
 ];
 

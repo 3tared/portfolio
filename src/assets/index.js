@@ -31,6 +31,7 @@ import javas from './JavaScript.png';
 import htmlcss from './HtmlCss.png';
 
 import crypto from './crypto.png';
+import aisummary from './aisummary.png';
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   htmlcss,
   crptoc,
   userimg,
+  aisummary,
 };
