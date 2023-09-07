@@ -207,7 +207,7 @@ const projects = [
   {
     name: 'Ai-Summary',
     description:
-      'Simplify your reading with Summize, an open-source article summarizer that transforms lengthy articles into clear andconcise summaries',
+      'Simplify your reading with Summarize, an open-source article summarizer that transforms lengthy articles into clear andconcise summaries',
     tags: [
       {
         name: 'react',
