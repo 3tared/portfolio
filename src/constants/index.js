@@ -145,7 +145,7 @@ const experiences = [
     url: 'https://www.coursera.org/account/accomplishments/certificate/LSD6TRP2598K',
   },
   {
-    title: 'Introduction to Back-End Development',
+    title: 'Introduction to Front-End Development',
     company_name: 'Meta',
     icon: meta,
     iconBg: '#E6DEDD',
