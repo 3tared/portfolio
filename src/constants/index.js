@@ -23,6 +23,7 @@ import {
   aisummary,
   ailogo,
   crptoc,
+  frontendIntro,
 } from '../assets';
 
 export const navLinks = [
@@ -142,6 +143,16 @@ const experiences = [
     grade: '84%',
     image: reacta,
     url: 'https://www.coursera.org/account/accomplishments/certificate/LSD6TRP2598K',
+  },
+  {
+    title: 'Introduction to Back-End Development',
+    company_name: 'Meta',
+    icon: meta,
+    iconBg: '#E6DEDD',
+    date: 'September 2023',
+    grade: '98%',
+    image: frontendIntro,
+    url: 'https://www.coursera.org/account/accomplishments/certificate/JS9BW9QP9SUG',
   },
 ];
 

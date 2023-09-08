@@ -29,6 +29,7 @@ import reactb from './ReactB.png';
 import reacta from './ReactA.png';
 import javas from './JavaScript.png';
 import htmlcss from './HtmlCss.png';
+import frontendIntro from './frontendIntro.png';
 
 import crypto from './crypto.png';
 import aisummary from './aisummary.png';
@@ -63,4 +64,5 @@ export {
   userimg,
   aisummary,
   ailogo,
+  frontendIntro,
 };
