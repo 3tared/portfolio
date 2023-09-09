@@ -20,6 +20,8 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import threejs from './tech/threejs.png';
 import bootstrap from './tech/bootstrap.png';
+import typescript from './tech/typescript.png';
+import nextjs from './tech/nextjs.png';
 
 import meta from './company/meta.png';
 
@@ -65,4 +67,6 @@ export {
   aisummary,
   ailogo,
   frontendIntro,
+  typescript,
+  nextjs,
 };

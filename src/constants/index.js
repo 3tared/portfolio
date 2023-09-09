@@ -24,6 +24,8 @@ import {
   ailogo,
   crptoc,
   frontendIntro,
+  nextjs,
+  typescript,
 } from '../assets';
 
 export const navLinks = [
@@ -74,12 +76,20 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: 'TypeScript',
+    icon: typescript,
+  },
+  {
     name: 'React JS',
     icon: reactjs,
   },
   {
     name: 'Redux Toolkit',
     icon: redux,
+  },
+  {
+    name: 'Next Js',
+    icon: nextjs,
   },
   {
     name: 'Tailwind CSS',
@@ -104,6 +114,16 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: 'Introduction to Front-End Development',
+    company_name: 'Meta',
+    icon: meta,
+    iconBg: '#E6DEDD',
+    date: 'September 2023',
+    grade: '98%',
+    image: frontendIntro,
+    url: 'https://www.coursera.org/account/accomplishments/certificate/JS9BW9QP9SUG',
+  },
   {
     title: 'HTML and CSS in depth',
     company_name: 'Meta',
@@ -143,16 +163,6 @@ const experiences = [
     grade: '84%',
     image: reacta,
     url: 'https://www.coursera.org/account/accomplishments/certificate/LSD6TRP2598K',
-  },
-  {
-    title: 'Introduction to Front-End Development',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'September 2023',
-    grade: '98%',
-    image: frontendIntro,
-    url: 'https://www.coursera.org/account/accomplishments/certificate/JS9BW9QP9SUG',
   },
 ];
 
