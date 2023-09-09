@@ -43,9 +43,6 @@ const Tech = () => {
               <div
                 key={tech.name}
                 className="w-28 h-28 rounded-full flex items-center justify-center"
-                style={{
-                  backgroundColor: 'rgb(44 34 97 / 35%)',
-                }}
               >
                 <img
                   src={tech.icon}
