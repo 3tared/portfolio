@@ -39,7 +39,7 @@ import ailogo from './ailogo.ico';
 
 import facebook from './facebook.png';
 import instgram from './instgram.png';
-import linkedin from './facebook.png';
+import linkedin from './linkedin.png';
 import githuub from './githuub.png';
 
 export {

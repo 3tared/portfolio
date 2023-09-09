@@ -33,14 +33,27 @@ const Tech = () => {
         <h2 className={styles.sectionHeadText}>Skills.</h2>
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-20">
-        {technologies.map((tech) => (
-          <div
-            className={!isMobile ? 'w-28 h-28' : 'w-24 h-24'}
-            key={tech.name}
-          >
-            <BallCanvas icon={tech.icon} />
-          </div>
-        ))}
+        {!isMobile
+          ? technologies.map((tech) => (
+              <div className={'w-28 h-28'} key={tech.name}>
+                <BallCanvas icon={tech.icon} />
+              </div>
+            ))
+          : technologies.map((tech) => (
+              <div
+                key={tech.name}
+                className="w-28 h-28 rounded-full flex items-center justify-center"
+                style={{
+                  backgroundColor: 'rgb(44 34 97 / 35%)',
+                }}
+              >
+                <img
+                  src={tech.icon}
+                  alt={tech.name}
+                  className="object-contain w-24 h-24 rounded-full"
+                />
+              </div>
+            ))}
       </div>
     </>
   );
