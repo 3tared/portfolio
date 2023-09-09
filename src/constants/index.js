@@ -26,6 +26,10 @@ import {
   frontendIntro,
   nextjs,
   typescript,
+  facebook,
+  instgram,
+  linkedin,
+  githuub,
 } from '../assets';
 
 export const navLinks = [
@@ -250,4 +254,27 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const icons = [
+  {
+    name: 'facebook',
+    icon: facebook,
+    url: 'https://www.facebook.com/3taredtv/',
+  },
+  {
+    name: 'instgram',
+    icon: instgram,
+    url: 'https://www.instagram.com/mohamed_tarekk21/',
+  },
+  {
+    name: 'linkedin',
+    icon: linkedin,
+    url: 'https://www.linkedin.com/in/mohamed-tarek-2a8759248/',
+  },
+  {
+    name: 'github',
+    icon: githuub,
+    url: 'https://github.com/3tared',
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, icons };

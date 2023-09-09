@@ -37,6 +37,11 @@ import crypto from './crypto.png';
 import aisummary from './aisummary.png';
 import ailogo from './ailogo.ico';
 
+import facebook from './facebook.png';
+import instgram from './instgram.png';
+import linkedin from './facebook.png';
+import githuub from './githuub.png';
+
 export {
   logo,
   next,
@@ -69,4 +74,8 @@ export {
   frontendIntro,
   typescript,
   nextjs,
+  facebook,
+  instgram,
+  linkedin,
+  githuub,
 };
