@@ -36,6 +36,8 @@ import frontendIntro from './frontendIntro.png';
 import crypto from './crypto.png';
 import aisummary from './aisummary.png';
 import ailogo from './ailogo.ico';
+import carhub from './carapp.png';
+import carlogo from './carlogo.png';
 
 import facebook from './facebook.png';
 import instgram from './instgram.png';
@@ -78,4 +80,6 @@ export {
   instgram,
   linkedin,
   githuub,
+  carhub,
+  carlogo,
 };

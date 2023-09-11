@@ -30,6 +30,8 @@ import {
   instgram,
   linkedin,
   githuub,
+  carhub,
+  carlogo,
 } from '../assets';
 
 export const navLinks = [
@@ -251,6 +253,29 @@ const projects = [
     icon: ailogo,
     source_code_link: 'https://github.com/3tared/ai_summarizer',
     project_url: 'https://openaisummarizer.vercel.app/',
+  },
+  {
+    name: 'Car Hub',
+    description:
+      'Find , Book , Rent A Car — Quickly And Easily , Streamline Your Car Rental Experience With Our Effortless Booking Process , Join Now And Rent Your Car!',
+    tags: [
+      {
+        name: 'TypeScript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Next Js',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: carhub,
+    icon: carlogo,
+    source_code_link: 'https://github.com/3tared/cars_app',
+    project_url: 'https://carshub-app.vercel.app/',
   },
 ];
 
