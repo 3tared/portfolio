@@ -205,6 +205,14 @@ const testimonials = [
     company: 'Accountant',
     image: userimg,
   },
+  {
+    testimonial:
+      'A Professional Front-end Developer And Iam Greatful To Work With This Man Who Care About His Jop More Than His Time',
+    name: 'Saif Haitham',
+    designation: 'Senior',
+    company: 'Mobile Dev',
+    image: userimg,
+  },
 ];
 
 const projects = [
