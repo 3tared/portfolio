@@ -38,6 +38,8 @@ import aisummary from './aisummary.png';
 import ailogo from './ailogo.ico';
 import carhub from './carapp.png';
 import carlogo from './carlogo.png';
+import crudlogo from './crudlogo.png';
+import crud from './crud.png';
 
 import facebook from './facebook.png';
 import instgram from './instgram.png';
@@ -82,4 +84,6 @@ export {
   githuub,
   carhub,
   carlogo,
+  crudlogo,
+  crud,
 };

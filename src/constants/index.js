@@ -32,6 +32,8 @@ import {
   githuub,
   carhub,
   carlogo,
+  crudlogo,
+  crud,
 } from '../assets';
 
 export const navLinks = [
@@ -260,7 +262,7 @@ const projects = [
     image: aisummary,
     icon: ailogo,
     source_code_link: 'https://github.com/3tared/ai_summarizer',
-    project_url: 'https://openaisummarizer.vercel.app/',
+    project_url: 'https://aisumm.vercel.app/',
   },
   {
     name: 'Car Hub',
@@ -284,6 +286,29 @@ const projects = [
     icon: carlogo,
     source_code_link: 'https://github.com/3tared/cars_app',
     project_url: 'https://carshub-app.vercel.app/',
+  },
+  {
+    name: 'Crud App',
+    description:
+      'Basic Crud App For Creat & Edit & Read & Remove Products With A huge Functionalities By Using Tailwind Css And Headless Ui And TypeScript',
+    tags: [
+      {
+        name: 'React TypeScript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Headless Ui',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: crud,
+    icon: crudlogo,
+    source_code_link: 'https://github.com/3tared/crud',
+    project_url: 'https://crudwebapplication.vercel.app/',
   },
 ];
 
