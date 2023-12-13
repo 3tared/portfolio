@@ -34,6 +34,7 @@ import {
   carlogo,
   crudlogo,
   crud,
+  uiux,
 } from '../assets';
 
 export const navLinks = [
@@ -130,7 +131,7 @@ const experiences = [
     date: 'September 2023',
     grade: '98%',
     image: frontendIntro,
-    url: 'https://www.coursera.org/account/accomplishments/certificate/JS9BW9QP9SUG',
+    url: 'https://coursera.org/share/9fa294a9b40c43662f4f032a1f6992e9',
   },
   {
     title: 'HTML and CSS in depth',
@@ -171,6 +172,16 @@ const experiences = [
     grade: '84%',
     image: reacta,
     url: 'https://www.coursera.org/account/accomplishments/certificate/LSD6TRP2598K',
+  },
+  {
+    title: 'Principles of UX/UI Design',
+    company_name: 'Meta',
+    icon: meta,
+    iconBg: '#383E56',
+    date: 'Decamber 2023',
+    grade: '92.50%',
+    image: uiux,
+    url: 'https://coursera.org/share/683e7347e10c436e87e77a4d054d4099',
   },
 ];
 

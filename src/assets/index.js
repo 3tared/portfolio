@@ -14,6 +14,7 @@ import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
+import uiux from './uiux.png';
 
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
@@ -86,4 +87,5 @@ export {
   carlogo,
   crudlogo,
   crud,
+  uiux,
 };
