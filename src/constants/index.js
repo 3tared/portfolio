@@ -35,6 +35,11 @@ import {
   crudlogo,
   crud,
   uiux,
+  capstone,
+  codint_interview,
+  version_control,
+  frontend_meta,
+  frontend2,
 } from '../assets';
 
 export const navLinks = [
@@ -124,6 +129,26 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Meta Front-End Developer',
+    company_name: 'Meta',
+    icon: meta,
+    iconBg: '#E6DEDD',
+    date: 'December 2023',
+    grade: '100%',
+    image: frontend_meta,
+    url: 'https://coursera.org/share/614baa90df6767707f16146f3c1e8b8c',
+  },
+  {
+    title: 'Meta Front-End Developer',
+    company_name: 'Meta',
+    icon: meta,
+    iconBg: '#383E56',
+    date: 'December 2023',
+    grade: '100%',
+    image: frontend2,
+    url: 'https://www.credly.com/badges/47f6d645-d5ab-4c75-a63a-754b5236d032/public_url',
+  },
+  {
     title: 'Introduction to Front-End Development',
     company_name: 'Meta',
     icon: meta,
@@ -178,10 +203,40 @@ const experiences = [
     company_name: 'Meta',
     icon: meta,
     iconBg: '#383E56',
-    date: 'Decamber 2023',
+    date: 'December 2023',
     grade: '92.50%',
     image: uiux,
     url: 'https://coursera.org/share/683e7347e10c436e87e77a4d054d4099',
+  },
+  {
+    title: 'Version Control',
+    company_name: 'Meta',
+    icon: meta,
+    iconBg: '#E6DEDD',
+    date: 'December 2023',
+    grade: '91.25%',
+    image: version_control,
+    url: 'https://coursera.org/share/ba7ca7c4bedbaacc2cabdd8f7d4b86fa',
+  },
+  {
+    title: 'Front-End Developer Capstone',
+    company_name: 'Meta',
+    icon: meta,
+    iconBg: '#383E56',
+    date: 'December 2023',
+    grade: '90%',
+    image: capstone,
+    url: 'https://coursera.org/share/720e8daf33e2c906af1511de131812f1',
+  },
+  {
+    title: 'Coding Interview Preparation',
+    company_name: 'Meta',
+    icon: meta,
+    iconBg: '#E6DEDD',
+    date: 'December 2023',
+    grade: '90%',
+    image: codint_interview,
+    url: 'https://coursera.org/share/005f5ca7135381d1725ed00cb87d99a3',
   },
 ];
 

@@ -33,6 +33,11 @@ import reacta from './ReactA.png';
 import javas from './JavaScript.png';
 import htmlcss from './HtmlCss.png';
 import frontendIntro from './frontendIntro.png';
+import capstone from './capstone.png';
+import codint_interview from './coding_interview.png';
+import version_control from './version_control.png';
+import frontend_meta from './meta_frontend.png';
+import frontend2 from './credly_frontend.png';
 
 import crypto from './crypto.png';
 import aisummary from './aisummary.png';
@@ -88,4 +93,9 @@ export {
   crudlogo,
   crud,
   uiux,
+  capstone,
+  codint_interview,
+  version_control,
+  frontend_meta,
+  frontend2,
 };
