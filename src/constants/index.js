@@ -375,8 +375,8 @@ const projects = [
     ],
     image: crud,
     icon: crudlogo,
-    source_code_link: 'https://github.com/3tared/TODO',
-    project_url: 'https://3taredtodos.vercel.app/',
+    source_code_link: 'https://github.com/3tared/crud',
+    project_url: 'https://crudwebapplication.vercel.app/',
   },
   {
     name: 'TODO App',
@@ -398,8 +398,8 @@ const projects = [
     ],
     image: todo,
     icon: todoLogo,
-    source_code_link: 'https://github.com/3tared/crud',
-    project_url: 'https://crudwebapplication.vercel.app/',
+    source_code_link: 'https://github.com/3tared/TODO',
+    project_url: 'https://3taredtodos.vercel.app/',
   },
 ];
 
