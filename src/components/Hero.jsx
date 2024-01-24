@@ -11,7 +11,7 @@ const Hero = () => {
     if (!typingEffectRef.current) {
       typingEffectRef.current = new Typed('.multiText', {
         strings: [
-          'Front-End Developer',
+          'Front-End Engineer',
           'React.js Developer',
           'Next.js Developer',
           'Web Developer',
@@ -41,9 +41,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I&apos;m a{' '}
-            <span className="text-[#915eff] multiText">
-              Front-End Developer
-            </span>{' '}
+            <span className="text-[#915eff] multiText">Front-End Engineer</span>{' '}
             , I Develop Web Applications ,<br className="sm:block hidden" />{' '}
             Using React.js & Next.js.
           </p>

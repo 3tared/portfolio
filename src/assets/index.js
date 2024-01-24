@@ -46,6 +46,8 @@ import carhub from './carapp.png';
 import carlogo from './carlogo.png';
 import crudlogo from './crudlogo.png';
 import crud from './crud.png';
+import todo from './todo.png';
+import todoLogo from './todologo.png';
 
 import facebook from './facebook.png';
 import instgram from './instgram.png';
@@ -98,4 +100,6 @@ export {
   version_control,
   frontend_meta,
   frontend2,
+  todo,
+  todoLogo,
 };

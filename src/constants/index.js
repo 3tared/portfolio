@@ -40,6 +40,8 @@ import {
   version_control,
   frontend_meta,
   frontend2,
+  todo,
+  todoLogo,
 } from '../assets';
 
 export const navLinks = [
@@ -71,7 +73,7 @@ const services = [
     icon: next,
   },
   {
-    title: 'Front-End Developer',
+    title: 'Front-End Engineer',
     icon: frontend,
   },
 ];
@@ -356,6 +358,29 @@ const projects = [
   {
     name: 'Crud App',
     description:
+      'Basic Todo App , This is a simple web application designed to help users manage their tasks and stay organized',
+    tags: [
+      {
+        name: 'React TypeScript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Strapi',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: crud,
+    icon: crudlogo,
+    source_code_link: 'https://github.com/3tared/TODO',
+    project_url: 'https://3taredtodos.vercel.app/',
+  },
+  {
+    name: 'TODO App',
+    description:
       'Basic Crud App For Creat & Edit & Read & Remove Products With A huge Functionalities By Using Tailwind Css And Headless Ui And TypeScript',
     tags: [
       {
@@ -371,8 +396,8 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: crud,
-    icon: crudlogo,
+    image: todo,
+    icon: todoLogo,
     source_code_link: 'https://github.com/3tared/crud',
     project_url: 'https://crudwebapplication.vercel.app/',
   },
