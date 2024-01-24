@@ -358,15 +358,15 @@ const projects = [
   {
     name: 'Crud App',
     description:
-      'Basic Todo App , This is a simple web application designed to help users manage their tasks and stay organized',
+      'Basic Crud App For Creat & Edit & Read & Remove Products With A huge Functionalities By Using Tailwind Css And Headless Ui And TypeScript',
     tags: [
       {
         name: 'React TypeScript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'Strapi',
-        color: 'blue-text-gradient',
+        name: 'Headless Ui',
+        color: 'green-text-gradient',
       },
       {
         name: 'Tailwind',
@@ -380,16 +380,17 @@ const projects = [
   },
   {
     name: 'TODO App',
+
     description:
-      'Basic Crud App For Creat & Edit & Read & Remove Products With A huge Functionalities By Using Tailwind Css And Headless Ui And TypeScript',
+      'Basic Todo App , This is a simple web application designed to help users manage their tasks and stay organized',
     tags: [
       {
         name: 'React TypeScript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'Headless Ui',
-        color: 'green-text-gradient',
+        name: 'Strapi',
+        color: 'blue-text-gradient',
       },
       {
         name: 'Tailwind',
