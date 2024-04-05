@@ -26,7 +26,6 @@ import {
   frontendIntro,
   nextjs,
   typescript,
-  facebook,
   instgram,
   linkedin,
   githuub,
