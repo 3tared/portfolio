@@ -41,6 +41,7 @@ import {
   frontend2,
   todo,
   todoLogo,
+  facebook,
 } from '../assets';
 
 export const navLinks = [
@@ -404,11 +405,11 @@ const projects = [
 ];
 
 const icons = [
-  // {
-  //   name: 'facebook',
-  //   icon: facebook,
-  //   url: 'https://www.facebook.com/3taredtv/',
-  // },
+  {
+    name: 'facebook',
+    icon: facebook,
+    url: 'https://www.facebook.com/3taredtv/',
+  },
   {
     name: 'instgram',
     icon: instgram,
